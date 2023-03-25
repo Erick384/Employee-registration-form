@@ -38,7 +38,7 @@
                 <div class="form-group">
                     <label for="firstName">First Name</label>
                     <div class="form-txt">
-                        <input type="text" class="form-control" id="firstName" placeholder="e.g. Marcus"/>
+                        <input type="text" class="form-control" name="first_name" placeholder="e.g. Marcus"/>
                     </div>
     
                 </div>
@@ -46,7 +46,7 @@
                 <div class="form-group">
                     <label for="LastName">Last Name</label>
                     <div class="form-txt">
-                        <input type="text" class="form-control" id="LastName" placeholder="e.g. Rashford" />
+                        <input type="text" class="form-control" name="last_name" placeholder="e.g. Rashford" />
                     </div>
     
                 </div>
@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <label for="email">mail address 1</label>
                     <div class="form-txt">
-                        <input type="text" class="form-control" id="email" placeholder="e.g. marcusrashford10@gmail.com" />
+                        <input type="text" class="form-control" name="first_email" placeholder="e.g. marcusrashford10@gmail.com" />
                     </div>
     
                 </div>
@@ -62,7 +62,7 @@
                 <div class="form-group">
                     <label for="email">mail address 2</label>
                     <div class="form-txt">
-                        <input type="text" class="form-control" id="email" placeholder="e.g. marcusrashford10@gmail.com" />
+                        <input type="text" class="form-control" name="second_email" placeholder="e.g. marcusrashford10@gmail.com" />
                     </div>
     
                 </div>
@@ -70,7 +70,7 @@
                 <div class="form-group">
                     <label for="city">City</label>
                     <div class="form-txt">
-                        <input type="text" class="form-control" id="city" placeholder="e.g. Manchester">
+                        <input type="text" class="form-control" name="city" placeholder="e.g. Manchester">
                     </div>
     
                 </div>
@@ -78,7 +78,7 @@
                 <div class="form-group">
                     <label for="state">STATE:</label>
                     <div class="form-txt">
-                        <select name="state" id="state" style="padding: 0.3rem;">
+                        <select name="state" name="state" style="padding: 0.3rem;">
                             <option value="Nairobi">Nairobi</option>
                             <option value="mombasa">Mombasa</option>
                             <option value="kisumu">Kisumu</option>
@@ -92,24 +92,24 @@
                 <div class="form-group">
                     <label for="zip">Zip</label>
                     <div class="form-txt">
-                        <input type="number" class="form-control" id="zip"> <br> <br>
+                        <input type="number" class="form-control" name="zip_file"> <br> <br>
                     </div>
     
                 </div>
     
             </div>
     
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label for="photo">Upload Photo</label>
                 <div class="form-txt">
-                    <form action="" method="post" name="fromimageupload" enctype="multipart/form-data" style="padding: 0.3rem;">
-                        <input type="file" name="fileUpload" accept="image/**"> <br> <br>
+                    <form action="" method="post" name="photo" enctype="multipart/form-data" style="padding: 0.3rem;">
+                        <input type="file" name="photo" accept="image/**"> <br> <br>
     
                     </form>
                 </div>
-            </div>
+            </div> -->
             <div class="buttons">
-                <input class="btn1" type="button" value="Reset form"> <br> <br>
+                <input class="btn1" type="reset" value="Reset form"> <br> <br>
                 <input class="btn2" type="submit" value="submit"> <br> <br>
             </div>
     
