@@ -3,56 +3,50 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
     height: 100vh;
-    background-color: aqua;
+    background-color:bisque;
 }
-
-.container-form {
-    display: flex;
-    align-self: center;
-    background-color: white;
-}
-
 .container {
     display: flex;
     flex-direction: column;
+    background-color: white;
     padding: 2rem;
-    align-self: center;
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-    /* margin: auto; */
-    /* padding-left: o; */
-    gap: 0.5rem;
+    gap: 1rem;
     width: 40vw;
-
+    align-self: center;
 }
-
+.logo svg{
+    height: 50px;
+    width: 50px;
+}
 .heading {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
     color: red;
 }
-
-.form1-txt {
-    display: flex;
-    gap: 1rem;
-    width: 20vw;
-}
-
-.form1 {
+.radio{
     display: flex;
     justify-content: space-between;
 }
-
+.rform{
+    display: flex;
+    width: 20vw;
+    gap: 1rem;
+    align-self: flex-start;
+}
 .form {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
 }
-
 .form-group {
     display: flex;
     justify-content: space-between;
@@ -60,40 +54,35 @@ body {
 
 .form-txt {
     display: flex;
-    /* border: 1px solid red; */
     width: 20vw;
-    /* align-items: start; */
 }
-
+.form-photo{
+    display: flex;
+    width: 20vw;
+    align-self: flex-start; 
+}
 .form-txt input {
     padding: .4rem;
     width: 30vw;
 }
-
-.buttons {
+.button {
     display: flex;
     align-self: flex-end;
-    row-gap: 2rem;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 20vw;
     /* border: 1px solid red; */
-    width: 70%;
-    /* justify-content: space-between; */
 }
-
-.buttons input {
+.button input {
     width: 6rem;
     font-weight: bold;
     cursor: pointer;
-    /* text-transform: uppercase; */
 }
-
 .btn2 {
     background-color: rgba(111, 111, 194, 0.651);
     padding: .7rem;
     border-radius: 5px;
     border: 1px solid black;
 }
-
 .btn1 {
     border-radius: 5px;
     border: 1px solid black;
