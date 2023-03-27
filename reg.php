@@ -2,8 +2,8 @@
 // Establish a connection to the database
 $dbHost = 'localhost';
 $dbName = 'employee';
-$dbUser = 'root';
-$dbPass = '';
+$dbUser = 'USER';
+$dbPass = 'USE YOUR PASSWORD';
 
 $db = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUser, $dbPass);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
