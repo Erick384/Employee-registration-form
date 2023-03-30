@@ -3,7 +3,7 @@
 $dbHost = 'localhost';
 $dbName = 'employee';
 $dbUser = 'root';
-$dbPass = '';
+$dbPass = '@EWK0129#';
 
 $db = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUser, $dbPass);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
